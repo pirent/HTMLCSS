@@ -28,7 +28,7 @@ p.raspberry {
     color: blue;
 }
 
-.guarantee {
+#guarantee {
     line-height: 1.9em;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -44,4 +44,25 @@ p.raspberry {
     background-image: url(images/background.gif);
     background-repeat: no-repeat;
     background-position: top left;  
+}
+
+/*  ===============================================
+    DEVICES SPECIFIC
+    =============================================== */
+@media screen and (min-device-width: 481px) {
+    #guarantee {
+        margin-right: 250px;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #guarantee {
+        margin-right: 30px;
+    }
+}
+
+@media print {
+    body {
+        font-family: Times, "Times New Roman", serif;
+    }
 }
