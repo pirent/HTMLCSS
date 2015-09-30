@@ -16,6 +16,14 @@ h2 {
     font-size: 130%;
 }
 
+a:link {
+    color: #007e7e;
+}
+
+a:visited {
+    color: #333333;
+}
+
 p.blueberry {
     color: purple;
 }
@@ -68,6 +76,8 @@ p.raspberry {
 
     line-height: 1;
 
+    float: right;
+
     background-image: url(images/cocktail.gif);
     background-repeat: repeat-x;
 }
@@ -78,6 +88,19 @@ p.raspberry {
 
 #elixirs h3 {
     color: #d12c47;
+}
+
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333333;
+}
+
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
 }
 
 #footer {
@@ -94,6 +117,8 @@ p.raspberry {
 .artist {
     font-weight: bold;
 }
+
+
 
 /*  ===============================================
     DEVICES SPECIFIC
