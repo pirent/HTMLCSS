@@ -27,3 +27,55 @@ h2 {
 blockquote {
     font-style: italic;
 }
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+table table th {
+    background-color: white;
+}
+
+table table tr:nth-child(odd) {
+    background-color: pink;
+}
+
+table table tr:nth-child(even) {
+    background-color: blue;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #fcba7a;
+}
+
+th {
+    background-color: #cc6600;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+li {
+    list-style-image: url(images/backpack.gif);
+    padding-top: 5px;
+    margin-left: 20px;
+}
